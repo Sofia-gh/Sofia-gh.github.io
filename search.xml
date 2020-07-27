@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Hexo 设置博客</title>
+      <link href="/2020/07/27/Hexo%20%E8%AE%BE%E7%BD%AE%E5%8D%9A%E5%AE%A2/"/>
+      <url>/2020/07/27/Hexo%20%E8%AE%BE%E7%BD%AE%E5%8D%9A%E5%AE%A2/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Hexo-设置博客"><a href="#Hexo-设置博客" class="headerlink" title="Hexo 设置博客"></a>Hexo 设置博客</h1><h2 id="Hexo-安装"><a href="#Hexo-安装" class="headerlink" title="Hexo 安装"></a>Hexo 安装</h2><h3 id="安装-node-js"><a href="#安装-node-js" class="headerlink" title="安装 node.js"></a>安装 node.js</h3><p>官网：</p><h3 id="安装-Hexo"><a href="#安装-Hexo" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h3><p>官网：<a href="https://hexo.io/" target="_blank" rel="noopener">https://hexo.io/</a></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo</span><br></pre></td></tr></table></figure><h2 id="Hexo-生成主题配置"><a href="#Hexo-生成主题配置" class="headerlink" title="Hexo 生成主题配置"></a>Hexo 生成主题配置</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm init 主题存放地址</span><br></pre></td></tr></table></figure><h2 id="Hexo-本地博客"><a href="#Hexo-本地博客" class="headerlink" title="Hexo 本地博客"></a>Hexo 本地博客</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm s</span><br></pre></td></tr></table></figure><h2 id="Hexo-设置-GithubPage"><a href="#Hexo-设置-GithubPage" class="headerlink" title="Hexo 设置 GithubPage"></a>Hexo 设置 GithubPage</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> dev </category>
+          
+          <category> 开发文档 </category>
+          
+          <category> Hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>IDEA 修改 Git 用户</title>
+      <link href="/2020/07/26/IDEA%20%E4%BF%AE%E6%94%B9%20Git%20%E7%94%A8%E6%88%B7/"/>
+      <url>/2020/07/26/IDEA%20%E4%BF%AE%E6%94%B9%20Git%20%E7%94%A8%E6%88%B7/</url>
+      
+        <content type="html"><![CDATA[<h1 id="IDEA-修改-Git-用户"><a href="#IDEA-修改-Git-用户" class="headerlink" title="IDEA 修改 Git 用户"></a>IDEA 修改 Git 用户</h1><h2 id="1-控制面板-→"><a href="#1-控制面板-→" class="headerlink" title="1. 控制面板 →"></a>1. 控制面板 →</h2><p><img src= "/img/loading.gif" data-src="C:%5CUsers%5Caaa%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-202007261001371921.png" alt="image-20200726100137192"></p><p><img src= "/img/loading.gif" data-src="C:%5CUsers%5Caaa%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200726100705868.png" alt="image-20200726100705868"></p><h2 id="2-凭据管理器-→"><a href="#2-凭据管理器-→" class="headerlink" title="2. 凭据管理器 →"></a>2. 凭据管理器 →</h2><p><img src= "/img/loading.gif" data-src="C:%5CUsers%5Caaa%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200726100955377.png" alt="image-20200726100955377"></p><h2 id="3-管理-Windows-凭据-→"><a href="#3-管理-Windows-凭据-→" class="headerlink" title="3. 管理 Windows 凭据 →"></a>3. 管理 Windows 凭据 →</h2><p><img src= "/img/loading.gif" data-src="C:%5CUsers%5Caaa%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200726101416752.png" alt="image-20200726101416752"></p><h2 id="4-删除用户凭证"><a href="#4-删除用户凭证" class="headerlink" title="4. 删除用户凭证"></a>4. 删除用户凭证</h2><p><img src= "/img/loading.gif" data-src="C:%5CUsers%5Caaa%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200726103152873.png" alt="image-20200726103152873"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> IDEA </tag>
+            
+            <tag> Git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
