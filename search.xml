@@ -4,11 +4,242 @@
   
     
     <entry>
-      <title>Hexo设置博客</title>
-      <link href="/2020/07/27/Hexo%E8%AE%BE%E7%BD%AE%E5%8D%9A%E5%AE%A2/"/>
-      <url>/2020/07/27/Hexo%E8%AE%BE%E7%BD%AE%E5%8D%9A%E5%AE%A2/</url>
+      <title>Git 安装</title>
+      <link href="/2020/09/29/Git%20%E5%AE%89%E8%A3%85/"/>
+      <url>/2020/09/29/Git%20%E5%AE%89%E8%A3%85/</url>
       
-        <content type="html"><![CDATA[<h1 id="Hexo-设置博客"><a href="#Hexo-设置博客" class="headerlink" title="Hexo 设置博客"></a>Hexo 设置博客</h1><blockquote><p>Hexo 官网：<a href="https://hexo.io/" target="_blank" rel="noopener">https://hexo.io/</a></p></blockquote><h2 id="Hexo-安装"><a href="#Hexo-安装" class="headerlink" title="Hexo 安装"></a>Hexo 安装</h2><h3 id="node-js"><a href="#node-js" class="headerlink" title="node.js"></a>node.js</h3><p>下载：<a href="https://nodejs.org/" target="_blank" rel="noopener">https://nodejs.org/</a></p><h3 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h3><p>下载：</p><h3 id="安装-Hexo"><a href="#安装-Hexo" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h3><p>官网：<a href="https://hexo.io/" target="_blank" rel="noopener">https://hexo.io/</a></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo</span><br></pre></td></tr></table></figure><h2 id="Hexo-生成主题配置"><a href="#Hexo-生成主题配置" class="headerlink" title="Hexo 生成主题配置"></a>Hexo 生成主题配置</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm init 主题存放地址</span><br></pre></td></tr></table></figure><h2 id="Hexo-本地博客"><a href="#Hexo-本地博客" class="headerlink" title="Hexo 本地博客"></a>Hexo 本地博客</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm s</span><br></pre></td></tr></table></figure><h2 id="Hexo-设置-GithubPage"><a href="#Hexo-设置-GithubPage" class="headerlink" title="Hexo 设置 GithubPage"></a>Hexo 设置 GithubPage</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[<h1 id="Git-安装"><a href="#Git-安装" class="headerlink" title="Git 安装"></a>Git 安装</h1><p>官网：<a href="https://git-scm.com/" target="_blank" rel="noopener">https://git-scm.com/</a></p><p>参考博客：<a href="https://www.liaoxuefeng.com/wiki/896043488029600" target="_blank" rel="noopener">https://www.liaoxuefeng.com/wiki/896043488029600</a></p><h2 id="一、验证安装"><a href="#一、验证安装" class="headerlink" title="一、验证安装"></a>一、验证安装</h2><p>安装前，输入<code>git</code>验证是否安装</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/sofia_in/img/raw/master/blog/image-20200927154209143.png" alt="image-20200927154209143"></p><h2 id="二、下载安装"><a href="#二、下载安装" class="headerlink" title="二、下载安装"></a>二、下载安装</h2><p>下载安装包，按照默认选项安装</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/sofia_in/img/raw/master/blog/image-20200927155027157.png" alt="image-20200927155027157"></p><p>开始菜单 → Git → Git Bath，跳出命令行窗口，即安装成功</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/sofia_in/img/raw/master/blog/image-20200927155956261.png" alt="image-20200927155956261"></p><h2 id="三、设置用户"><a href="#三、设置用户" class="headerlink" title="三、设置用户"></a>三、设置用户</h2><p><code>--global</code>全局设置，作用于所有仓库</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name &quot;Your Name&quot;</span><br><span class="line">$ git config --global user.email &quot;email@example.com&quot;</span><br></pre></td></tr></table></figure><h2 id="四、SSH-Key"><a href="#四、SSH-Key" class="headerlink" title="四、SSH Key"></a>四、SSH Key</h2><h3 id="4-1-查看文件"><a href="#4-1-查看文件" class="headerlink" title="4.1 查看文件"></a>4.1 查看文件</h3><p><code>C://user/aaa/.ssh</code>是否存在<code>id_rsa</code>、<code>id_rsa.pub</code></p><h3 id="4-2-是否生成"><a href="#4-2-是否生成" class="headerlink" title="4.2 是否生成"></a>4.2 是否生成</h3><p>打开 Git Bash 输入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd ~&#x2F;.ssh</span><br></pre></td></tr></table></figure><p>若打开 .ssh 则已生成可直接使用</p><h3 id="4-3-生成密钥"><a href="#4-3-生成密钥" class="headerlink" title="4.3 生成密钥"></a>4.3 生成密钥</h3><ol><li><p>配置用户名、邮箱</p><p>可查看是否配置：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global  --list</span><br></pre></td></tr></table></figure></li><li><p>生成密钥</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;email@example.com&quot;</span><br></pre></td></tr></table></figure><p>连续回车三次，确定生成</p></li></ol><h3 id="4-4-配置密钥"><a href="#4-4-配置密钥" class="headerlink" title="4.4 配置密钥"></a>4.4 配置密钥</h3><p>将<code>id_rsa.pub</code>添加到远程仓库</p><h2 id="五、TortoiseGit-——-Git-源客户端"><a href="#五、TortoiseGit-——-Git-源客户端" class="headerlink" title="五、TortoiseGit —— Git 源客户端"></a>五、TortoiseGit —— Git 源客户端</h2><p><a href="https://tortoisegit.org/" target="_blank" rel="noopener">https://tortoisegit.org/</a></p><h3 id="5-1-下载"><a href="#5-1-下载" class="headerlink" title="5.1 下载"></a>5.1 下载</h3><p>安装包：</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/sofia_in/img/raw/master/blog/image-20200929110822276.png" alt="image-20200929110822276"></p><p>语言包：</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/sofia_in/img/raw/master/blog/image-20200929110956753.png" alt="image-20200929110956753"></p><p>语言包下载完成，安装小乌龟会自动设置语言，也可以通过设置手动切换</p><h3 id="5-2-设置"><a href="#5-2-设置" class="headerlink" title="5.2 设置"></a>5.2 设置</h3><p>安装完成后，桌面右击进入 TortoiseGit 设置页面</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/sofia_in/img/raw/master/blog/image-20200929140111431.png" alt="image-20200929140111431"></p><p>设置语言：</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/sofia_in/img/raw/master/blog/image-20200929140328529.png" alt="image-20200929140328529"></p><p>设置菜单：</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/sofia_in/img/raw/master/blog/image-20200929140849213.png" alt="image-20200929140849213"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Git </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>MySQL 安装</title>
+      <link href="/2020/09/27/MySQL%20%E5%AE%89%E8%A3%85/"/>
+      <url>/2020/09/27/MySQL%20%E5%AE%89%E8%A3%85/</url>
+      
+        <content type="html"><![CDATA[<h1 id="MySQL-安装"><a href="#MySQL-安装" class="headerlink" title="MySQL 安装"></a>MySQL 安装</h1><p><a href="https://www.mysql.com/" target="_blank" rel="noopener">https://www.mysql.com/</a></p><p>安装前可通过查看电脑服务确定 MySQL 是否安装</p><h2 id="一、安装包下载"><a href="#一、安装包下载" class="headerlink" title="一、安装包下载"></a>一、安装包下载</h2><p>下载速度慢</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/sofia_in/img/raw/master/blog/image-20200926140614192.png" alt="image-20200926140614192"></p><h2 id="二、配置"><a href="#二、配置" class="headerlink" title="二、配置"></a>二、配置</h2><h3 id="2-1-管理员身份打开命令行"><a href="#2-1-管理员身份打开命令行" class="headerlink" title="2.1 管理员身份打开命令行"></a>2.1 管理员身份打开命令行</h3><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/sofia_in/img/raw/master/blog/image-20200926142753599.png" alt="image-20200926142753599"></p><h3 id="2-2-跳转到-MySQL-的-bin-目录下"><a href="#2-2-跳转到-MySQL-的-bin-目录下" class="headerlink" title="2.2 跳转到 MySQL 的 bin 目录下"></a>2.2 跳转到 MySQL 的 bin 目录下</h3><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/sofia_in/img/raw/master/blog/image-20200926142318975.png" alt="image-20200926142318975"> </p><h3 id="2-3-安装"><a href="#2-3-安装" class="headerlink" title="2.3 安装"></a>2.3 安装</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mysqld --install</span><br></pre></td></tr></table></figure><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/sofia_in/img/raw/master/blog/image-20200926143615469.png" alt="image-20200926143615469"></p><h3 id="2-4-初始化，产生随机密码"><a href="#2-4-初始化，产生随机密码" class="headerlink" title="2.4 初始化，产生随机密码"></a>2.4 初始化，产生随机密码</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mysqld --initialize --console</span><br></pre></td></tr></table></figure><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/sofia_in/img/raw/master/blog/image-20200926143919101.png" alt="image-20200926143919101"></p><p>密码：<code>hLB2iJp,-a-/</code></p><h3 id="2-5-启动服务"><a href="#2-5-启动服务" class="headerlink" title="2.5 启动服务"></a>2.5 启动服务</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">net start mysql</span><br></pre></td></tr></table></figure><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/sofia_in/img/raw/master/blog/image-20200926144227553.png" alt="image-20200926144227553"></p><h3 id="2-6-登录验证，使用随机密码登录"><a href="#2-6-登录验证，使用随机密码登录" class="headerlink" title="2.6 登录验证，使用随机密码登录"></a>2.6 登录验证，使用随机密码登录</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mysql -u root -p</span><br></pre></td></tr></table></figure><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/sofia_in/img/raw/master/blog/image-20200926144547548.png" alt="image-20200926144547548"></p><h3 id="2-7-修改密码"><a href="#2-7-修改密码" class="headerlink" title="2.7 修改密码"></a>2.7 修改密码</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alter user &#39;root&#39;@&#39;localhost&#39; identified by &#39;123456&#39;;</span><br></pre></td></tr></table></figure><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/sofia_in/img/raw/master/blog/image-20200926144910404.png" alt="image-20200926144910404"></p><p>==注：’’;” 表示执行语句结束==</p><p>再次登录：</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/sofia_in/img/raw/master/blog/image-20200926145222251.png" alt="image-20200926145222251"></p><h3 id="2-8-设置全局变量"><a href="#2-8-设置全局变量" class="headerlink" title="2.8 设置全局变量"></a>2.8 设置全局变量</h3><p>我的电脑→属性→高级系统设置→环境变量</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/sofia_in/img/raw/master/blog/image-20200926150225928.png" alt="image-20200926150225928"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/sofia_in/img/raw/master/blog/image-20200926150534073.png" alt="image-20200926150534073"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/sofia_in/img/raw/master/blog/image-20200926150726245.png" alt="image-20200926150726245"></p><h3 id="2-9-Navicat-连接"><a href="#2-9-Navicat-连接" class="headerlink" title="2.9 Navicat 连接"></a>2.9 Navicat 连接</h3><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/sofia_in/img/raw/master/blog/image-20200926150956496.png" alt="image-20200926150956496"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> MySQL </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MySQL </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>MyBatis-Plus 实体注解</title>
+      <link href="/2020/09/27/MyBatis-Plus%20%E6%B3%A8%E8%A7%A3/"/>
+      <url>/2020/09/27/MyBatis-Plus%20%E6%B3%A8%E8%A7%A3/</url>
+      
+        <content type="html"><![CDATA[<h1 id="MyBatis-Plus-实体注解"><a href="#MyBatis-Plus-实体注解" class="headerlink" title="MyBatis-Plus 实体注解"></a>MyBatis-Plus 实体注解</h1><p><a href="https://mybatis.plus/" target="_blank" rel="noopener">https://mybatis.plus/</a></p><h2 id="TableName"><a href="#TableName" class="headerlink" title="@TableName"></a>@TableName</h2><table><thead><tr><th>属性</th><th>描述</th></tr></thead><tbody><tr><td>value</td><td>表名</td></tr><tr><td>resultMap</td><td>xml 结果映射 id</td></tr></tbody></table><h2 id="TableId"><a href="#TableId" class="headerlink" title="@TableId"></a>@TableId</h2><table><thead><tr><th>属性</th><th>描述</th></tr></thead><tbody><tr><td>value</td><td>主键字段名</td></tr><tr><td>type</td><td>主键类型（默认：idType.NONE，跟随全局）</td></tr></tbody></table><table><thead><tr><th>主键类型</th><th>描述</th></tr></thead><tbody><tr><td>AUTO</td><td>自增</td></tr><tr><td>ASSIGN_ID</td><td>雪花算法分配id，Long/Integer（ID_WORKER） 或 String（ID_WORKER_STR）通用</td></tr><tr><td>ASSIGN_UUID</td><td>32位 String（UUID），无排序</td></tr></tbody></table><h2 id="TableField"><a href="#TableField" class="headerlink" title="@TableField"></a>@TableField</h2><table><thead><tr><th>属性</th><th>描述</th></tr></thead><tbody><tr><td>value</td><td>字段名</td></tr><tr><td>el</td><td>xml 中的映射字段（==有些许疑问，是映射的请求字段不再需要加#{}，还是映射resultMap中的字段==）</td></tr><tr><td>exist</td><td>是否存在数据库表中</td></tr><tr><td>insertStrategy</td><td>NOT_NULL 非NULL判断</td></tr><tr><td>updateStrategy</td><td>IGNORED 忽略判断</td></tr><tr><td>whereStrategy</td><td>NOT_EMPTY 非空判断</td></tr><tr><td>fill</td><td>字段自动填充</td></tr></tbody></table><h2 id="Version"><a href="#Version" class="headerlink" title="@Version"></a>@Version</h2><p>乐观锁注解 ==乐观锁？==</p><h2 id="EnumValue"><a href="#EnumValue" class="headerlink" title="@EnumValue"></a>@EnumValue</h2><p>枚举</p><h2 id="TableLogic"><a href="#TableLogic" class="headerlink" title="@TableLogic"></a>@TableLogic</h2><p>逻辑删除注解，即假删除字段<code>del_flag</code>（是否删除：1-是；0-否）</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> MyBatis-Plus </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MyBatis-Plus </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>MyBatis-Plus 配置</title>
+      <link href="/2020/09/27/MyBatis-Plus%20%E9%85%8D%E7%BD%AE/"/>
+      <url>/2020/09/27/MyBatis-Plus%20%E9%85%8D%E7%BD%AE/</url>
+      
+        <content type="html"><![CDATA[<h1 id="MyBatis-Plus-配置"><a href="#MyBatis-Plus-配置" class="headerlink" title="MyBatis-Plus 配置"></a>MyBatis-Plus 配置</h1><h2 id="一、pom-xml"><a href="#一、pom-xml" class="headerlink" title="一、pom.xml"></a>一、pom.xml</h2><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>com.baomidou<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>mybatis-plus-boot-starter<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">version</span>&gt;</span>3.4.0<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure><h2 id="二、application-yml"><a href="#二、application-yml" class="headerlink" title="二、application.yml"></a>二、application.yml</h2><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># MyBatis-Plus</span></span><br><span class="line"><span class="comment"># MyBatis-Plus 配置识别‘-’隔字符和小驼峰命名，如 mybatis-plus = mybatisPlus</span></span><br><span class="line"><span class="attr">mybatis-plus:</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># MyBatis 配置文件 mybatis.xml 路径 </span></span><br><span class="line">  <span class="attr">configLocation:</span> </span><br><span class="line">  </span><br><span class="line">  <span class="comment"># MyBatis Mapper 所对应 XML 文件路径，默认值：classpath*:/mapper/**/*.xml</span></span><br><span class="line">  <span class="attr">mapperLocations:</span> <span class="string">classpath*:org/jeecg/modules/**/xml/*Mapper.xml</span></span><br><span class="line">  </span><br><span class="line">  <span class="comment"># 别名包扫描路径，通过该属性可以给包中的类注册别名，XML 可直接使用类名</span></span><br><span class="line">  <span class="attr">typeAliasesPackage:</span> </span><br><span class="line">  <span class="comment"># 别名父类</span></span><br><span class="line">  <span class="attr">typeAliasesSuperType:</span> </span><br><span class="line">  </span><br><span class="line">  <span class="comment"># MyBatis 所支持的配置，可通过 mybatis.xml 文件配置</span></span><br><span class="line">  <span class="attr">configuration:</span></span><br><span class="line">  <span class="comment"># 是否开启驼峰命名规则映射，Mybatis 默认 false，MyBaits-plus 默认 true</span></span><br><span class="line">  <span class="comment"># 数据库命名满足规范，不再需要 @TableField 注解</span></span><br><span class="line">    <span class="attr">mapUnderscoreToCamelCase:</span> <span class="literal">true</span></span><br><span class="line">    <span class="comment"># MyBatis 一级缓存 默认开启（SESSION：开启；STATEMENT：关闭）</span></span><br><span class="line">    <span class="attr">localCacheScope:</span> <span class="string">SESSION</span></span><br><span class="line">    <span class="comment"># MyBatis 二级缓存是否开启，默认 true</span></span><br><span class="line">    <span class="attr">cacheEnabled:</span> <span class="literal">true</span></span><br><span class="line">    <span class="comment"># 这个配置会将执行的sql打印出来，在开发或测试的时候可以用</span></span><br><span class="line">    <span class="attr">log-impl:</span> <span class="comment">#org.apache.ibatis.logging.stdout.StdOutImpl</span></span><br><span class="line">    </span><br><span class="line">  <span class="comment"># MyBatis-Plus 全局策略配置</span></span><br><span class="line">  <span class="attr">globalConfig:</span></span><br><span class="line">    <span class="comment"># 控制台是否打印 MyBatis-Plus 的 LOGO，默认值为 true</span></span><br><span class="line">    <span class="attr">banner:</span> <span class="literal">false</span></span><br><span class="line">    <span class="attr">dbConfig:</span></span><br><span class="line">      <span class="comment"># 全局主键类型，默认 ASSIGN_ID</span></span><br><span class="line">      <span class="attr">id-type:</span> <span class="string">ASSIGN_ID</span></span><br><span class="line">      <span class="comment"># 表名前缀</span></span><br><span class="line">      <span class="attr">tablePrefix:</span> </span><br><span class="line">      <span class="comment"># 表名是否使用驼峰转下划线命名，默认 true</span></span><br><span class="line">      <span class="attr">tableUnderline:</span> <span class="literal">true</span></span><br><span class="line">      <span class="comment"># 全局逻辑删除字段</span></span><br><span class="line">      <span class="attr">logicDeleteField:</span></span><br><span class="line">      <span class="comment"># 全局逻辑已删，默认1</span></span><br><span class="line">      <span class="attr">logicDeleteValue:</span> <span class="number">1</span></span><br><span class="line">      <span class="comment"># 全局逻辑未删，默认0</span></span><br><span class="line">      <span class="attr">logicNotDeleteValue:</span> <span class="number">0</span></span><br><span class="line">      <span class="comment"># 全局字段验证策略，默认 NOT_NULL</span></span><br><span class="line">      <span class="attr">insertStrategy:</span> <span class="string">NOT_NULL</span></span><br><span class="line">      <span class="attr">updateStrategy:</span> <span class="string">NOT_NULL</span></span><br><span class="line">      <span class="attr">selectStrategy:</span> <span class="string">NOT_NULL</span></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> MyBatis-Plus </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MyBatis-Plus </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>MyBatis-Plus 分页插件的使用</title>
+      <link href="/2020/09/27/MyBatis-Plus%20%E5%88%86%E9%A1%B5%E6%8F%92%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
+      <url>/2020/09/27/MyBatis-Plus%20%E5%88%86%E9%A1%B5%E6%8F%92%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
+      
+        <content type="html"><![CDATA[<h1 id="MyBatis-Plus-分页插件的使用"><a href="#MyBatis-Plus-分页插件的使用" class="headerlink" title="MyBatis-Plus 分页插件的使用"></a>MyBatis-Plus 分页插件的使用</h1><p><a href="https://mybatis.plus/guide/page.html" target="_blank" rel="noopener">https://mybatis.plus/guide/page.html</a></p><h2 id="一、配置文件"><a href="#一、配置文件" class="headerlink" title="一、配置文件"></a>一、配置文件</h2><ul><li><p>MybatisPlusConfig.java</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//Spring boot方式</span></span><br><span class="line"><span class="meta">@Configuration</span></span><br><span class="line"><span class="meta">@MapperScan</span>(<span class="string">"com.baomidou.cloud.service.*.mapper*"</span>)</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">MybatisPlusConfig</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Bean</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> PaginationInterceptor <span class="title">paginationInterceptor</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        PaginationInterceptor paginationInterceptor = <span class="keyword">new</span> PaginationInterceptor();</span><br><span class="line">        <span class="comment">// 设置请求的页面大于最大页后操作， true调回到首页，false 继续请求  默认false</span></span><br><span class="line">        <span class="comment">// paginationInterceptor.setOverflow(false);</span></span><br><span class="line">        <span class="comment">// 设置最大单页限制数量，默认 500 条，-1 不受限制</span></span><br><span class="line">        <span class="comment">// paginationInterceptor.setLimit(500);</span></span><br><span class="line">        <span class="comment">// 开启 count 的 join 优化,只针对部分 left join</span></span><br><span class="line">        paginationInterceptor.setCountSqlParser(<span class="keyword">new</span> JsqlParserCountOptimize(<span class="keyword">true</span>));</span><br><span class="line">        <span class="keyword">return</span> paginationInterceptor;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ul><h2 id="二、XML-自定义分页"><a href="#二、XML-自定义分页" class="headerlink" title="二、XML 自定义分页"></a>二、XML 自定义分页</h2><ul><li><p>UserMapper.java</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">UserMapper</span> </span>&#123;<span class="comment">//可以继承或者不继承BaseMapper</span></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * &lt;p&gt;</span></span><br><span class="line"><span class="comment">     * 查询 : 根据state状态查询用户列表，分页显示</span></span><br><span class="line"><span class="comment">     * &lt;/p&gt;</span></span><br><span class="line"><span class="comment">     *</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> page 分页对象,xml中可以从里面进行取值,传递参数 Page 即自动分页,必须放在第一位(你可以继承Page实现自己的分页对象)</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> state 状态</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> 分页对象</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="function">IPage&lt;User&gt; <span class="title">selectPageVo</span><span class="params">(Page&lt;?&gt; page, Integer state)</span></span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li><li><p>UserMapper.xml </p><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- 自定义查询sql --&gt;</span><br><span class="line">&lt;select id=<span class="string">"selectPageVo"</span> resultType=<span class="string">"com.baomidou.cloud.entity.UserVo"</span>&gt;</span><br><span class="line">    SELECT id,name FROM user WHERE state=#&#123;state&#125;</span><br><span class="line">&lt;/select&gt;</span><br></pre></td></tr></table></figure></li><li><p>UserServiceImpl.java </p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> IPage&lt;User&gt; <span class="title">selectUserPage</span><span class="params">(Page&lt;User&gt; page, Integer state)</span> </span>&#123;</span><br><span class="line">    <span class="comment">// 不进行 count sql 优化，解决 MP 无法自动优化 SQL 问题，这时候你需要自己查询 count 部分</span></span><br><span class="line">    <span class="comment">// page.setOptimizeCountSql(false);</span></span><br><span class="line">    <span class="comment">// 当 total 为小于 0 或者设置 setSearchCount(false) 分页插件不会进行 count 查询</span></span><br><span class="line">    <span class="comment">// 要点!! 分页返回的对象与传入的对象是同一个</span></span><br><span class="line">    <span class="keyword">return</span> userMapper.selectPageVo(page, state);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ul><p>==注：==</p><p>==1. 传递参数 Page 或 IPage 必须放在第一位。==</p><p>==2. 分页返回与传入是同一个对象。==</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> MyBatis-Plus </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MyBatis-Plus </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Windows 解除端口占用</title>
+      <link href="/2020/09/27/Windows%20%E8%A7%A3%E9%99%A4%E7%AB%AF%E5%8F%A3%E5%8D%A0%E7%94%A8/"/>
+      <url>/2020/09/27/Windows%20%E8%A7%A3%E9%99%A4%E7%AB%AF%E5%8F%A3%E5%8D%A0%E7%94%A8/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Windows-解除端口占用"><a href="#Windows-解除端口占用" class="headerlink" title="Windows 解除端口占用"></a>Windows 解除端口占用</h1><h2 id="查看进程"><a href="#查看进程" class="headerlink" title="查看进程"></a>查看进程</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">netstat  -aon|findstr  8082</span><br></pre></td></tr></table></figure><h2 id="结束进程"><a href="#结束进程" class="headerlink" title="结束进程"></a>结束进程</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">taskkill &#x2F;f &#x2F;t &#x2F;im  12828</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> IDEA </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> IDEA </tag>
+            
+            <tag> Windows </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Typora 图片上传</title>
+      <link href="/2020/09/27/Typora%20%E5%9B%BE%E7%89%87%E4%B8%8A%E4%BC%A0/"/>
+      <url>/2020/09/27/Typora%20%E5%9B%BE%E7%89%87%E4%B8%8A%E4%BC%A0/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Typora-图片上传"><a href="#Typora-图片上传" class="headerlink" title="Typora 图片上传"></a>Typora 图片上传</h1><p>官网：<a href="https://www.typora.io" target="_blank" rel="noopener">https://www.typora.io</a></p><p>参考博客：<a href="https://www.cnblogs.com/windowsxpxp/p/12694524.html" target="_blank" rel="noopener">https://www.cnblogs.com/windowsxpxp/p/12694524.html</a></p><h2 id="一、下载-PicGo-app"><a href="#一、下载-PicGo-app" class="headerlink" title="一、下载 PicGo.app"></a>一、下载 PicGo.app</h2><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/sofia_in/img/raw/master/blog/image-20200827092619653.png" alt="image-20200827092619653"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/sofia_in/img/raw/master/blog/image-20200827092737700.png" alt="image-20200827092737700"></p><p>Github 下载速度慢，可在下载后将安装包保留备份</p><h2 id="二、下载-Gitee-插件"><a href="#二、下载-Gitee-插件" class="headerlink" title="二、下载 Gitee 插件"></a>二、下载 Gitee 插件</h2><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/sofia_in/img/raw/master/blog/image-20200827092945506.png" alt="image-20200827092945506"></p><p>选择左边版本，右边版本可能不能使用</p><h2 id="三、配置-Gitee-图床"><a href="#三、配置-Gitee-图床" class="headerlink" title="三、配置 Gitee 图床"></a>三、配置 Gitee 图床</h2><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/sofia_in/img/raw/master/blog/image-20200827094821748.png" alt="image-20200827094821748"></p><h2 id="四、设置服务器"><a href="#四、设置服务器" class="headerlink" title="四、设置服务器"></a>四、设置服务器</h2><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/sofia_in/img/raw/master/blog/image-20200827095228090.png" alt="image-20200827095228090"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/sofia_in/img/raw/master/blog/image-20200827095257893.png" alt="image-20200827095257893"></p><p>PicGo 中的服务端口与 Typora 中一致</p><h2 id="五、验证图片上传"><a href="#五、验证图片上传" class="headerlink" title="五、验证图片上传"></a>五、验证图片上传</h2><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/sofia_in/img/raw/master/blog/image-20200827095634293.png" alt="image-20200827095634293"></p><h2 id="六、设置上传规则"><a href="#六、设置上传规则" class="headerlink" title="六、设置上传规则"></a>六、设置上传规则</h2><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/sofia_in/img/raw/master/blog/image-20200827095805477.png" alt="image-20200827095805477"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具 </category>
+          
+          <category> Typora </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Typota </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>IDEA 自动导入 jar 包</title>
+      <link href="/2020/08/15/IDEA%20%E8%87%AA%E5%8A%A8%E5%AF%BC%E5%85%A5%20jar%20%E5%8C%85/"/>
+      <url>/2020/08/15/IDEA%20%E8%87%AA%E5%8A%A8%E5%AF%BC%E5%85%A5%20jar%20%E5%8C%85/</url>
+      
+        <content type="html"><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/sofia_in/img/raw/master/blog/image-20200815085206781.png" alt="image-20200815085206781"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具 </category>
+          
+          <category> IDEA </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> IDEA </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Could not autowire. No beans of &#39;XXXMapper&#39; type found.</title>
+      <link href="/2020/08/13/Could%20not%20autowire.%20No%20beans%20of%20&#39;XXXMapper&#39;%20type%20found/"/>
+      <url>/2020/08/13/Could%20not%20autowire.%20No%20beans%20of%20&#39;XXXMapper&#39;%20type%20found/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Could-not-autowire-No-beans-of-‘XXXMapper’-type-found"><a href="#Could-not-autowire-No-beans-of-‘XXXMapper’-type-found" class="headerlink" title="Could not autowire. No beans of ‘XXXMapper’ type found"></a>Could not autowire. No beans of ‘XXXMapper’ type found</h1><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/sofia_in/img/raw/master/blog/image-20200813165213969.png" alt="image-20200813165213969"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 异常 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> IDEA </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hexo 设置博客</title>
+      <link href="/2020/07/27/Hexo%20%E8%AE%BE%E7%BD%AE%E5%8D%9A%E5%AE%A2/"/>
+      <url>/2020/07/27/Hexo%20%E8%AE%BE%E7%BD%AE%E5%8D%9A%E5%AE%A2/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>Hexo 官网：<a href="https://hexo.io/" target="_blank" rel="noopener">https://hexo.io/</a></p><p>Butterfly网址：<a href="https://demo.jerryc.me/" target="_blank" rel="noopener">https://demo.jerryc.me/</a></p></blockquote><h2 id="Hexo-安装"><a href="#Hexo-安装" class="headerlink" title="Hexo 安装"></a>Hexo 安装</h2><h3 id="node-js"><a href="#node-js" class="headerlink" title="node.js"></a>node.js</h3><p>下载：<a href="https://nodejs.org/" target="_blank" rel="noopener">https://nodejs.org/</a></p><h3 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h3><p>下载：<a href="https://git-scm.com/" target="_blank" rel="noopener">https://git-scm.com/</a></p><h3 id="安装-Hexo"><a href="#安装-Hexo" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo</span><br></pre></td></tr></table></figure><h2 id="Hexo-生成主题配置"><a href="#Hexo-生成主题配置" class="headerlink" title="Hexo 生成主题配置"></a>Hexo 生成主题配置</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm init 主题存放地址</span><br></pre></td></tr></table></figure><h2 id="Hexo-清空"><a href="#Hexo-清空" class="headerlink" title="Hexo 清空"></a>Hexo 清空</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure><h2 id="Hexo-本地服务"><a href="#Hexo-本地服务" class="headerlink" title="Hexo 本地服务"></a>Hexo 本地服务</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure><h2 id="Hexo-云服务"><a href="#Hexo-云服务" class="headerlink" title="Hexo 云服务"></a>Hexo 云服务</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>]]></content>
       
       
       <categories>
@@ -29,11 +260,11 @@
     
     
     <entry>
-      <title>IDEA修改Git用户</title>
-      <link href="/2020/07/26/IDEA%E4%BF%AE%E6%94%B9Git%E7%94%A8%E6%88%B7/"/>
-      <url>/2020/07/26/IDEA%E4%BF%AE%E6%94%B9Git%E7%94%A8%E6%88%B7/</url>
+      <title>IDEA 修改 Git 用户</title>
+      <link href="/2020/07/26/IDEA%20%E4%BF%AE%E6%94%B9%20Git%20%E7%94%A8%E6%88%B7/"/>
+      <url>/2020/07/26/IDEA%20%E4%BF%AE%E6%94%B9%20Git%20%E7%94%A8%E6%88%B7/</url>
       
-        <content type="html"><![CDATA[<h1 id="IDEA-修改-Git-用户"><a href="#IDEA-修改-Git-用户" class="headerlink" title="IDEA 修改 Git 用户"></a>IDEA 修改 Git 用户</h1><h2 id="一、删除用户凭证"><a href="#一、删除用户凭证" class="headerlink" title="一、删除用户凭证"></a>一、删除用户凭证</h2><h3 id="控制面板-→"><a href="#控制面板-→" class="headerlink" title="控制面板 →"></a>控制面板 →</h3><p><img src= "/img/loading.gif" data-src="C:/Users/aaa/AppData/Roaming/Typora/typora-user-images/image-202007261001371921.png" alt="image-20200726100137192"></p><p><img src= "/img/loading.gif" data-src="C:%5CUsers%5Caaa%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200726100705868.png" alt="image-20200726100705868"></p><h3 id="凭据管理器-→"><a href="#凭据管理器-→" class="headerlink" title="凭据管理器 →"></a>凭据管理器 →</h3><p><img src= "/img/loading.gif" data-src="C:%5CUsers%5Caaa%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200726100955377.png" alt="image-20200726100955377"></p><h3 id="管理-Windows-凭据-→"><a href="#管理-Windows-凭据-→" class="headerlink" title="管理 Windows 凭据 →"></a>管理 Windows 凭据 →</h3><p><img src= "/img/loading.gif" data-src="C:%5CUsers%5Caaa%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200726101416752.png" alt="image-20200726101416752"></p><h3 id="删除用户凭证"><a href="#删除用户凭证" class="headerlink" title="删除用户凭证"></a>删除用户凭证</h3><p><img src= "/img/loading.gif" data-src="C:%5CUsers%5Caaa%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200726103152873.png" alt="image-20200726103152873"></p><h2 id="二、修改-Git-用户"><a href="#二、修改-Git-用户" class="headerlink" title="二、修改 Git 用户"></a>二、修改 Git 用户</h2><h3 id="方法1：修改-Git-用户文件-gitconfig"><a href="#方法1：修改-Git-用户文件-gitconfig" class="headerlink" title="方法1：修改 Git 用户文件.gitconfig"></a>方法1：修改 Git 用户文件<code>.gitconfig</code></h3><p><img src= "/img/loading.gif" data-src="C:%5CUsers%5Caaa%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200728094138195.png" alt="image-20200728094138195"></p><p><img src= "/img/loading.gif" data-src="C:%5CUsers%5Caaa%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200728094515726.png" alt="image-20200728094515726"></p><h3 id="方法2：Git-命令修改用户信息"><a href="#方法2：Git-命令修改用户信息" class="headerlink" title="方法2：Git 命令修改用户信息"></a>方法2：Git 命令修改用户信息</h3><h4 id="查看用户信息"><a href="#查看用户信息" class="headerlink" title="查看用户信息"></a>查看用户信息</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config user.name</span><br><span class="line">git config user.email</span><br></pre></td></tr></table></figure><h4 id="修改用户信息"><a href="#修改用户信息" class="headerlink" title="修改用户信息"></a>修改用户信息</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name 用户名</span><br><span class="line">git config --global user.email 邮箱</span><br></pre></td></tr></table></figure><p>==注：==只有添加<code>--global</code>进行设置的用户信息为全局用户，否则仅是对当前项目进行了设置，更换项目之后还需重新设置</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="一、删除用户凭证"><a href="#一、删除用户凭证" class="headerlink" title="一、删除用户凭证"></a>一、删除用户凭证</h2><h3 id="控制面板-→"><a href="#控制面板-→" class="headerlink" title="控制面板 →"></a>控制面板 →</h3><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/sofia_in/img/raw/master/blog/image-202007261001371921.png" alt="image-202007261001371921"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/sofia_in/img/raw/master/blog/image-20200726100705868.png" alt="image-20200726100705868"></p><h3 id="凭据管理器-→"><a href="#凭据管理器-→" class="headerlink" title="凭据管理器 →"></a>凭据管理器 →</h3><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/sofia_in/img/raw/master/blog/image-20200726100955377.png" alt="image-20200726100955377"></p><h3 id="管理-Windows-凭据-→"><a href="#管理-Windows-凭据-→" class="headerlink" title="管理 Windows 凭据 →"></a>管理 Windows 凭据 →</h3><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/sofia_in/img/raw/master/blog/image-20200726101416752.png" alt="image-20200726101416752"></p><h3 id="删除用户凭证"><a href="#删除用户凭证" class="headerlink" title="删除用户凭证"></a>删除用户凭证</h3><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/sofia_in/img/raw/master/blog/image-20200726103152873.png" alt="image-20200726103152873"></p><h2 id="二、修改-Git-用户"><a href="#二、修改-Git-用户" class="headerlink" title="二、修改 Git 用户"></a>二、修改 Git 用户</h2><h3 id="方法1：修改-Git-用户文件-gitconfig"><a href="#方法1：修改-Git-用户文件-gitconfig" class="headerlink" title="方法1：修改 Git 用户文件.gitconfig"></a>方法1：修改 Git 用户文件<code>.gitconfig</code></h3><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/sofia_in/img/raw/master/blog/image-20200728094138195.png" alt="image-20200728094138195"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/sofia_in/img/raw/master/blog/image-20200728094515726.png" alt="image-20200728094515726"></p><h3 id="方法2：Git-命令修改用户信息"><a href="#方法2：Git-命令修改用户信息" class="headerlink" title="方法2：Git 命令修改用户信息"></a>方法2：Git 命令修改用户信息</h3><h4 id="查看用户信息"><a href="#查看用户信息" class="headerlink" title="查看用户信息"></a>查看用户信息</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config user.name</span><br><span class="line">git config user.email</span><br></pre></td></tr></table></figure><h4 id="修改用户信息"><a href="#修改用户信息" class="headerlink" title="修改用户信息"></a>修改用户信息</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name 用户名</span><br><span class="line">git config --global user.email 邮箱</span><br></pre></td></tr></table></figure><p>==注：==只有添加<code>--global</code>进行设置的用户信息为全局用户，否则仅是对当前项目进行了设置，更换项目之后还需重新设置</p>]]></content>
       
       
       <categories>
